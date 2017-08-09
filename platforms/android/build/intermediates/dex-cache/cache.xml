@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\tchowdhu\Documents\TestIonic\game-schedule-app\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7a1530ac850543228ac856fe951d258efe29f918">
+        <dex dex="C:\Users\tchowdhu\Documents\TestIonic\game-schedule-app\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.2.3-debug_edf1abaa4a7efa2a7458179574f7143a8c1db9bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\platforms\android\build\intermediates\exploded-aar\org.apache.cordova\CordovaLib\6.2.3\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7a1530ac850543228ac856fe951d258efe29f918">
+        <dex dex="C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-6.2.3-debug_a83fc2743c88c79371d689c57f908dbbe3d256a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tchowdhu\Documents\TestIonic\game-schedule-app\platforms\android\libs\sqlite-connector.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="76169ab23a4f939925491c6fe186749da5a56ee9">
+        <dex dex="C:\Users\tchowdhu\Documents\TestIonic\game-schedule-app\platforms\android\build\intermediates\pre-dexed\debug\sqlite-connector_693a8dfe804c84dd860c4d160763d728ecc2be47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\platforms\android\libs\sqlite-connector.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="76169ab23a4f939925491c6fe186749da5a56ee9">
+        <dex dex="C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\platforms\android\build\intermediates\pre-dexed\debug\sqlite-connector_faa1ef15950adc95bd477e4d3db1a10fa6a12f65.jar" />
+    </item>
+
+</items>

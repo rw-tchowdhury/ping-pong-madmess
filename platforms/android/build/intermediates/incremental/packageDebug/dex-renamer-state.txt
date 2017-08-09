@@ -1,0 +1,4 @@
+#Tue Aug 08 23:50:39 CDT 2017
+base.0=C\:\\Users\\tchowdhu\\Documents\\TestIonic\\ping-pong-madness\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\tchowdhu\\Documents\\TestIonic\\ping-pong-madness\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
