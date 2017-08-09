@@ -48,16 +48,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(237);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_google_maps_core__ = __webpack_require__(433);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_google_maps_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_angular2_google_maps_core__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(438);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(724);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_list_list__ = __webpack_require__(725);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_pages__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_pages__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(249);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -71,8 +69,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
-
+// import { HomePage } from '../pages/home/home';
+// import { ListPage } from '../pages/list/list';
 
 
 
@@ -85,16 +83,16 @@ AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_list_list__["a" /* ListPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["c" /* MyTeamsPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["h" /* TournamentsPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["g" /* TeamsPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["e" /* TeamDetailPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["a" /* GamePage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["d" /* StandingsPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["f" /* TeamHomePage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["b" /* MapPage */]
+            // HomePage,
+            // ListPage,
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["c" /* MyTeamsPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["h" /* TournamentsPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["g" /* TeamsPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["e" /* TeamDetailPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["a" /* GamePage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["d" /* StandingsPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["f" /* TeamHomePage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["b" /* MapPage */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* HttpModule */],
@@ -106,20 +104,20 @@ AppModule = __decorate([
         bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicApp */]],
         entryComponents: [
             __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_list_list__["a" /* ListPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["c" /* MyTeamsPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["h" /* TournamentsPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["g" /* TeamsPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["e" /* TeamDetailPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["a" /* GamePage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["d" /* StandingsPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["f" /* TeamHomePage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_pages__["b" /* MapPage */]
+            // HomePage,
+            // ListPage,
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["c" /* MyTeamsPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["h" /* TournamentsPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["g" /* TeamsPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["e" /* TeamDetailPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["a" /* GamePage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["d" /* StandingsPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["f" /* TeamHomePage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["b" /* MapPage */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["d" /* IonicErrorHandler */] }
         ]
     })
@@ -184,7 +182,7 @@ AppModule = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(245);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(249);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(84);
@@ -292,7 +290,7 @@ MyApp = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyTeamsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -457,7 +455,7 @@ AppApi = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserSettings; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_storage__ = __webpack_require__(237);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_lodash__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -609,7 +607,7 @@ SqlStorage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TournamentsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -677,7 +675,7 @@ TournamentsPage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GamePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -747,7 +745,7 @@ GamePage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TeamDetailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment__ = __webpack_require__(2);
@@ -1160,7 +1158,7 @@ webpackContext.id = 719;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TeamsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(40);
@@ -1251,7 +1249,7 @@ TeamsPage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StandingsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(41);
@@ -1298,7 +1296,7 @@ var StandingsPage = (function () {
 }());
 StandingsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-standings',template:/*ion-inline-start:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/'<!--\n  Generated template for the StandingsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar></ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-item-group *ngFor="let division of allStandings">\n      <ion-item-divider color="secondary">\n        {{division.divisionName}}\n      </ion-item-divider>\n      <ion-item *ngFor="let team of division.divisionStandings">\n          <ion-row>\n            <ion-col>\n              <h2 color="primary">{{team.teamName}}</h2>\n            </ion-col>\n          </ion-row>\n          <ion-row>\n            <ion-col>\n              <h4>Wins</h4>\n            </ion-col>\n            <ion-col>\n              <h4>Losses</h4>\n            </ion-col>\n            <ion-col>\n              <h4>Games</h4>\n            </ion-col>\n            <ion-col>\n              <h4>SW</h4>\n            </ion-col>\n            <ion-col>\n              <h4>SL</h4>\n            </ion-col>\n            <ion-col>\n              <h4>Diff</h4>\n            </ion-col>           \n          </ion-row>\n          <ion-row>\n            <ion-col>\n              <h4>{{team.wins}}</h4>\n            </ion-col>\n            <ion-col>\n              <h4>{{team.losses}}</h4>\n            </ion-col>\n            <ion-col>\n              <h4>{{team.winningPct}}</h4>\n            </ion-col>\n            <ion-col>\n              <h4>{{team.pointsFor}}</h4>\n            </ion-col>\n            <ion-col>\n              <h4>{{team.pointsAgainst}}</h4>\n            </ion-col>\n            <ion-col>\n              <h4>{{team.pointsDiff}}</h4>\n            </ion-col>           \n          </ion-row>          \n      </ion-item>\n    </ion-item-group>\n  </ion-list>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/,
+        selector: 'page-standings',template:/*ion-inline-start:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/'<!--\n  Generated template for the StandingsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar></ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-item-group *ngFor="let division of allStandings">\n      <ion-item-divider color="secondary">\n        {{division.divisionName}}\n      </ion-item-divider>\n      <ion-item *ngFor="let team of division.divisionStandings">\n          <ion-row>\n            <ion-col>\n              <h2 color="primary">{{team.teamName}}</h2>\n            </ion-col>\n          </ion-row>\n          <ion-row>\n            <ion-col>\n              <h4>Wins</h4>\n            </ion-col>\n            <ion-col>\n              <h4>Losses</h4>\n            </ion-col>\n            <ion-col>\n              <h4>Games</h4>\n            </ion-col>\n            <ion-col>\n              <h4>SW</h4>\n            </ion-col>\n            <ion-col>\n              <h4>SL</h4>\n            </ion-col>\n            <!--<ion-col>\n              <h4>Diff</h4>\n            </ion-col>           -->\n          </ion-row>\n          <ion-row>\n            <ion-col>\n              <h4>{{team.wins}}</h4>\n            </ion-col>\n            <ion-col>\n              <h4>{{team.losses}}</h4>\n            </ion-col>\n            <ion-col>\n              <h4>{{team.games}}</h4>\n            </ion-col>\n            <ion-col>\n              <h4>{{team.setWon}}</h4>\n            </ion-col>\n            <ion-col>\n              <h4>{{team.setLost}}</h4>\n            </ion-col>\n            <!--<ion-col>\n              <h4>{{team.pointsDiff}}</h4>\n            </ion-col>           -->\n          </ion-row>          \n      </ion-item>\n    </ion-item-group>\n  </ion-list>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
@@ -1315,7 +1313,7 @@ StandingsPage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TeamHomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1368,7 +1366,7 @@ TeamHomePage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MapPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1422,100 +1420,6 @@ MapPage = __decorate([
 ], MapPage);
 
 //# sourceMappingURL=map.js.map
-
-/***/ }),
-
-/***/ 724:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var HomePage = (function () {
-    function HomePage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    HomePage.prototype.sayHello = function () {
-        console.log("Hello Game Schedule");
-    };
-    return HomePage;
-}());
-HomePage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-home',template:/*ion-inline-start:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h3>Ionic Menu Starter</h3>\n\n  <button ion-button color="primary" (click)="sayHello()">Hello Game Schedule</button><br>\n  <button ion-button color="secondary" menuToggle>Toggle Menu</button>\n</ion-content>\n'/*ion-inline-end:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\home\home.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
-], HomePage);
-
-//# sourceMappingURL=home.js.map
-
-/***/ }),
-
-/***/ 725:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(22);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ListPage = ListPage_1 = (function () {
-    function ListPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        // If we navigated to this page, we will have an item available as a nav param
-        this.selectedItem = navParams.get('item');
-        // Let's populate this page with some filler content for funzies
-        this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
-            'american-football', 'boat', 'bluetooth', 'build'];
-        this.items = [];
-        for (var i = 1; i < 11; i++) {
-            this.items.push({
-                title: 'Item ' + i,
-                note: 'This is item #' + i,
-                icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-            });
-        }
-    }
-    ListPage.prototype.itemTapped = function (event, item) {
-        // That's right, we're pushing to ourselves!
-        this.navCtrl.push(ListPage_1, {
-            item: item
-        });
-    };
-    return ListPage;
-}());
-ListPage = ListPage_1 = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-list',template:/*ion-inline-start:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\list\list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-left></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-right>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\list\list.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-], ListPage);
-
-var ListPage_1;
-//# sourceMappingURL=list.js.map
 
 /***/ })
 
