@@ -47,7 +47,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(237);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_google_maps_core__ = __webpack_require__(433);
@@ -185,7 +185,7 @@ AppModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(245);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(249);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_pages__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shared_shared__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -377,7 +377,7 @@ MyTeamsPage = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppApi; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(447);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__ = __webpack_require__(0);
@@ -456,7 +456,7 @@ AppApi = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_storage__ = __webpack_require__(237);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_lodash__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -746,7 +746,7 @@ GamePage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TeamDetailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_moment__);
@@ -1159,7 +1159,7 @@ webpackContext.id = 719;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TeamsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared__ = __webpack_require__(41);
@@ -1250,9 +1250,7 @@ TeamsPage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StandingsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1263,13 +1261,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
-/**
- * Generated class for the StandingsPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
 
 
 var StandingsPage = (function () {
@@ -1283,24 +1274,24 @@ var StandingsPage = (function () {
         console.log('ionViewDidLoad StandingsPage');
         var tourneyData = this.appApi.getCurrentTourney();
         this.standings = tourneyData.standings;
-        this.allStandings =
-            __WEBPACK_IMPORTED_MODULE_2_lodash__["chain"](this.standings)
-                .groupBy('division')
-                .toPairs()
-                .map(function (item) { return __WEBPACK_IMPORTED_MODULE_2_lodash__["zipObject"](['divisionName', 'divisionStandings'], item); })
-                .value();
-        //  console.log('standings: ', this.standings);
+        // this.allStandings = 
+        //   _.chain(this.standings)
+        //    .groupBy('division')
+        //    .toPairs()
+        //    .map(item => _.zipObject(['divisionName', 'divisionStandings'], item))
+        //    .value();
+        console.log('standings: ', this.standings);
         //  console.log('division standings: ', this.allStandings);
     };
     return StandingsPage;
 }());
 StandingsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-standings',template:/*ion-inline-start:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/'<!--\n\n  Generated template for the StandingsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar></ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item-group *ngFor="let division of allStandings">\n\n      <ion-item-divider color="secondary">\n\n        {{division.divisionName}}\n\n      </ion-item-divider>\n\n      <ion-item *ngFor="let team of division.divisionStandings">\n\n          <ion-row>\n\n            <ion-col>\n\n              <h2 color="primary">{{team.teamName}}</h2>\n\n            </ion-col>\n\n          </ion-row>\n\n          <ion-row>\n\n            <ion-col>\n\n              <h4>Wins</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>Losses</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>Games</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>SW</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>SL</h4>\n\n            </ion-col>\n\n            <!--<ion-col>\n\n              <h4>Diff</h4>\n\n            </ion-col>           -->\n\n          </ion-row>\n\n          <ion-row>\n\n            <ion-col>\n\n              <h4>{{team.wins}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.losses}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.games}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.setWon}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.setLost}}</h4>\n\n            </ion-col>\n\n            <!--<ion-col>\n\n              <h4>{{team.pointsDiff}}</h4>\n\n            </ion-col>           -->\n\n          </ion-row>          \n\n      </ion-item>\n\n    </ion-item-group>\n\n  </ion-list>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/,
+        selector: 'page-standings',template:/*ion-inline-start:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/'<!--\n\n  Generated template for the StandingsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar></ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list [virtualScroll]="standings" [approxItemHeight]="\'132px\'">\n\n    <ion-item *virtualItem="let team">\n\n          <ion-row>\n\n            <ion-col>\n\n              <h2 color="primary">{{team.teamName}}</h2>\n\n            </ion-col>\n\n          </ion-row>\n\n          <ion-row>\n\n            <ion-col>\n\n              <h4>Wins</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>Losses</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>Games</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>SW</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>SL</h4>\n\n            </ion-col>\n\n            <!--<ion-col>\n\n              <h4>Diff</h4>\n\n            </ion-col>           -->\n\n          </ion-row>\n\n          <ion-row>\n\n            <ion-col>\n\n              <h4>{{team.wins}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.losses}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.games}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.setWon}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.setLost}}</h4>\n\n            </ion-col>\n\n            <!--<ion-col>\n\n              <h4>{{team.pointsDiff}}</h4>\n\n            </ion-col>           -->\n\n          </ion-row>      \n\n    </ion-item>\n\n  </ion-list>\n\n  <!--<ion-list>\n\n    <ion-item-group *ngFor="let division of allStandings">\n\n      <ion-item-divider color="secondary">\n\n        {{division.divisionName}}\n\n      </ion-item-divider>\n\n      <ion-item *ngFor="let team of division.divisionStandings">\n\n    \n\n      </ion-item>\n\n    </ion-item-group>\n\n  </ion-list>-->\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
-        __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* AppApi */]])
+        __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* AppApi */]])
 ], StandingsPage);
 
 //# sourceMappingURL=standings.js.map
