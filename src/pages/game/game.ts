@@ -33,6 +33,10 @@ export class GamePage {
     this.game.gameTime = Date.parse(this.game.time);
   }
 
+  goHome(){
+    this.navCtrl.popToRoot();
+  }  
+
   teamTapped(teamId) {
     let tourneyData = this.appApi.getCurrentTourney();
     let team = tourneyData.teams.find(t=> t.id === teamId);
