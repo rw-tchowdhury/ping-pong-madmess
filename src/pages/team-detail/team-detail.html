@@ -31,16 +31,16 @@
         </ion-col>
       </ion-row>
       <ion-item>
-        <ion-label>Date Filter:</ion-label>
-        <ion-toggle [(ngModel)]="useDateFilter"
-                    (ionChange)="dateChanged()">
-        </ion-toggle>
-        <ion-datetime displayFormat="M/D/YYYY" 
-                      pickerFormat="M/D/YYYY"
+        <ion-label color="primary">Date Filter :</ion-label>
+        <ion-datetime displayFormat="MM/DD/YYYY" 
+                      pickerFormat="MM/DD/YYYY"
                       [(ngModel)]="dateFilter"
                       (ionChange)="dateChanged()"
                       [(disabled)]="!useDateFilter">
         </ion-datetime>
+        <ion-toggle [(ngModel)]="useDateFilter"
+                    (ionChange)="dateChanged()">
+        </ion-toggle>        
       </ion-item>
     </ion-card-content>
   </ion-card>

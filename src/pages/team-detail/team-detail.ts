@@ -20,7 +20,7 @@ import { AlertController, NavController, NavParams, ToastController } from 'ioni
 })
 export class TeamDetailPage {
   allGames: any[];
-  dateFilter: string;
+  dateFilter = moment().format('YYYY-MM-DD');
   games: any[];
   isFollowing = false; 
   team: any;
@@ -41,7 +41,7 @@ export class TeamDetailPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TeamDetailPage');  
+    console.log('ionViewDidLoad TeamDetailPage');
 
     this.tourneyData = this.appApi.getCurrentTourney();
 

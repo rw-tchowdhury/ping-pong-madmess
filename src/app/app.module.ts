@@ -4,10 +4,9 @@ import { HttpModule} from '@angular/http';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { IonicStorageModule } from '@ionic/storage';
 import { AgmCoreModule } from 'angular2-google-maps/core';
+import { SQLite } from '@ionic-native/sqlite';
 
 import { MyApp } from './app.component';
-// import { HomePage } from '../pages/home/home';
-// import { ListPage } from '../pages/list/list';
 import { MyTeamsPage, TournamentsPage, TeamsPage, TeamDetailPage, GamePage, StandingsPage, TeamHomePage, MapPage } from '../pages/pages'
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -16,8 +15,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    // HomePage,
-    // ListPage,
     MyTeamsPage,
     TournamentsPage,
     TeamsPage,
@@ -37,8 +34,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    // HomePage,
-    // ListPage,
     MyTeamsPage,
     TournamentsPage,
     TeamsPage,
@@ -51,6 +46,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
+    SQLite,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

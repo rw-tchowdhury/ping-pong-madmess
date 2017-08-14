@@ -3,8 +3,9 @@ import { Storage } from '@ionic/storage';
 import { Events } from 'ionic-angular';
 //import * as storageForage from 'localforage';
 
-//import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
-//import { SqlStorage } from './shared';
+import { SQLite } from '@ionic-native/sqlite';
+
+import { SqlStorage } from './shared';
 import * as _ from 'lodash';
 
 const win: any = window;
@@ -13,16 +14,10 @@ const win: any = window;
 export class UserSettings{
 storage = new Storage(window.localStorage);
 
-    // public db: SQLite;
-    // public sql: SqlStorage;
+    private db: SQLite;
+    private sqlStorage: SqlStorage;
 
     constructor(private events: Events){
-        // if (win.sqlitePlugin) {
-        //     this.sql = new SqlStorage();
-        //     console.log(this.sql);
-        // } else {
-        //     console.warn('SQLite plugin not installed. Falling back to regular Ionic Storage.');
-        // }        
         
      }
 
@@ -60,12 +55,17 @@ storage = new Storage(window.localStorage);
          return items.length ? items : null;        
      }
 
-    // initStorage(){
-    //     if (this.sql){
-    //         return this.sql.initializeDatabase();
-    //     } else {
-    //         return new Promise(resolve => resolve());
-    //     }
-    // }     
+    //----------------------------SQLite storage initialization--------------------------------------------
+    //initStorage(){
+
+        // if (win.sqlitePlugin){
+        //    this.db = new SQLite();
+        //    this.sqlStorage = new SqlStorage(this.db);        
+        //    return this.sqlStorage.initializeDatabase();            
+        // } else {
+        //     console.warn('SQLite plugin not installed. Falling back to regular Ionic Storage.');
+        //     return new Promise(resolve => resolve());
+        // }
+    //}     
 
 }

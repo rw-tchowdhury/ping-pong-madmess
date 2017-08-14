@@ -26,13 +26,13 @@ webpackEmptyAsyncContext.id = 197;
 
 /***/ }),
 
-/***/ 388:
+/***/ 389:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(389);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(393);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(390);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(394);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -40,22 +40,23 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 393:
+/***/ 394:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(237);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_google_maps_core__ = __webpack_require__(433);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_google_maps_core__ = __webpack_require__(434);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angular2_google_maps_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_angular2_google_maps_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(438);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_pages__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_sqlite__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_pages__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(250);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -69,8 +70,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-// import { HomePage } from '../pages/home/home';
-// import { ListPage } from '../pages/list/list';
+
 
 
 
@@ -82,42 +82,39 @@ var AppModule = (function () {
 AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
-            // HomePage,
-            // ListPage,
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["c" /* MyTeamsPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["h" /* TournamentsPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["g" /* TeamsPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["e" /* TeamDetailPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["a" /* GamePage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["d" /* StandingsPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["f" /* TeamHomePage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["b" /* MapPage */]
+            __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["c" /* MyTeamsPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["h" /* TournamentsPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["g" /* TeamsPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["e" /* TeamDetailPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["a" /* GamePage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["d" /* StandingsPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["f" /* TeamHomePage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["b" /* MapPage */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* HttpModule */],
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */]),
+            __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */]),
             __WEBPACK_IMPORTED_MODULE_4__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
             __WEBPACK_IMPORTED_MODULE_5_angular2_google_maps_core__["AgmCoreModule"].forRoot({ apiKey: 'AIzaSyBbsOlMryAHu2ESwHHSwrDBIUU7fiENNoM' })
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicApp */]],
         entryComponents: [
-            __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */],
-            // HomePage,
-            // ListPage,
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["c" /* MyTeamsPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["h" /* TournamentsPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["g" /* TeamsPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["e" /* TeamDetailPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["a" /* GamePage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["d" /* StandingsPage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["f" /* TeamHomePage */],
-            __WEBPACK_IMPORTED_MODULE_7__pages_pages__["b" /* MapPage */]
+            __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["c" /* MyTeamsPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["h" /* TournamentsPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["g" /* TeamsPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["e" /* TeamDetailPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["a" /* GamePage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["d" /* StandingsPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["f" /* TeamHomePage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_pages__["b" /* MapPage */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_6__ionic_native_sqlite__["a" /* SQLite */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ErrorHandler"], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["d" /* IonicErrorHandler */] }
         ]
     })
@@ -131,7 +128,7 @@ AppModule = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__my_teams_my_teams__ = __webpack_require__(445);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__my_teams_my_teams__ = __webpack_require__(446);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__my_teams_my_teams__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__tournaments_tournaments__ = __webpack_require__(716);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__tournaments_tournaments__["a"]; });
@@ -163,11 +160,11 @@ AppModule = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_api_service__ = __webpack_require__(446);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_api_service__ = __webpack_require__(447);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__app_api_service__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user_settings_service__ = __webpack_require__(713);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user_settings_service__ = __webpack_require__(714);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__user_settings_service__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sql_storage_service__ = __webpack_require__(714);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sql_storage_service__ = __webpack_require__(715);
 /* unused harmony namespace reexport */
 
 
@@ -176,16 +173,16 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 438:
+/***/ 445:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(249);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_pages__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shared_shared__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -226,7 +223,9 @@ var MyApp = (function () {
             _this.splashScreen.hide();
             _this.refreshFavorites();
             _this.events.subscribe('favorites:changed', function () { return _this.refreshFavorites(); });
+            //----------------------------SQLite storage initialization--------------------------------------------
             // this.userSettings.initStorage().then(() => {
+            //         console.log("initStorage...");
             //         this.rootPage = MyTeamsPage;
             //         this.refreshFavorites();
             //         this.events.subscribe('favorites:changed', () => this.refreshFavorites());
@@ -284,7 +283,7 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 445:
+/***/ 446:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -371,14 +370,14 @@ MyTeamsPage = __decorate([
 
 /***/ }),
 
-/***/ 446:
+/***/ 447:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppApi; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs__ = __webpack_require__(448);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__);
@@ -448,7 +447,7 @@ AppApi = __decorate([
 
 /***/ }),
 
-/***/ 713:
+/***/ 714:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -456,7 +455,7 @@ AppApi = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_storage__ = __webpack_require__(237);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_lodash__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -470,21 +469,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-//import * as storageForage from 'localforage';
-//import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
-//import { SqlStorage } from './shared';
 
 var win = window;
 var UserSettings = (function () {
-    // public db: SQLite;
-    // public sql: SqlStorage;
     function UserSettings(events) {
-        // if (win.sqlitePlugin) {
-        //     this.sql = new SqlStorage();
-        //     console.log(this.sql);
-        // } else {
-        //     console.warn('SQLite plugin not installed. Falling back to regular Ionic Storage.');
-        // }        
         this.events = events;
         this.storage = new __WEBPACK_IMPORTED_MODULE_1__ionic_storage__["b" /* Storage */](window.localStorage);
     }
@@ -528,13 +516,13 @@ UserSettings = __decorate([
 
 /***/ }),
 
-/***/ 714:
+/***/ 715:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export SqlStorage */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__ = __webpack_require__(715);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__ = __webpack_require__(245);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -546,8 +534,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+var DATABASE_FILE_NAME = 'data.db';
 var SqlStorage = (function () {
-    function SqlStorage() {
+    function SqlStorage(db) {
+        this.db = db;
         console.log(this.sql);
     }
     SqlStorage.prototype.getAll = function () {
@@ -580,13 +570,18 @@ var SqlStorage = (function () {
      * Should be called after deviceready event is fired
      */
     SqlStorage.prototype.initializeDatabase = function () {
+        var _this = this;
         this.db = new __WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__["a" /* SQLite */]();
         return this.db.create({
-            name: 'data.db',
+            name: DATABASE_FILE_NAME,
             location: 'default'
         }).then(function (sql) {
+            _this.sql = sql;
             return sql.executeSql('CREATE TABLE IF NOT EXISTS kv (key text primary key, value text)', []).then(function (data) {
-                console.log('**after CREATE TABLE check', data);
+                console.log('**after CREATE TABLE check...', data);
+                // sql.executeSql('SELECT * from kv', []).then(data => {
+                //     console.log('**executing query: SELECT * from kv ', data);                        
+                // });
             });
         });
     };
@@ -594,7 +589,7 @@ var SqlStorage = (function () {
 }());
 SqlStorage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_native_sqlite__["a" /* SQLite */]])
 ], SqlStorage);
 
 //# sourceMappingURL=sql-storage.service.js.map
@@ -746,7 +741,7 @@ GamePage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TeamDetailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_moment__);
@@ -781,6 +776,7 @@ var TeamDetailPage = (function () {
         this.alertController = alertController;
         this.toastController = toastController;
         this.userSettings = userSettings;
+        this.dateFilter = __WEBPACK_IMPORTED_MODULE_3_moment__().format('YYYY-MM-DD');
         this.isFollowing = false;
         this.team = this.navParams.data;
     }
@@ -885,7 +881,7 @@ var TeamDetailPage = (function () {
 }());
 TeamDetailPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'page-team-detail',template:/*ion-inline-start:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\team-detail\team-detail.html"*/'<!--\n\n  Generated template for the TeamDetailPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-header>\n\n    <ion-navbar></ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-refresher (ionRefresh)="refreshAll($event)">\n\n    <ion-refresher-content></ion-refresher-content>\n\n  </ion-refresher>\n\n  <ion-card>\n\n    <ion-card-content>\n\n      <ion-row>\n\n        <ion-col *ngIf="teamStanding" col-6>\n\n          <h2>Record: {{teamStanding.wins}} - {{teamStanding.losses}}</h2>\n\n          <p>Coach: {{team.coach}}</p>\n\n        </ion-col>\n\n        <ion-col col-6 text-right>\n\n          <button ion-button outline (click)="touggleFollow()" *ngIf="!isFollowing">\n\n              <ion-icon name="star" class="padding-right-3"></ion-icon>\n\n              Add Favorite\n\n          </button>\n\n          <button ion-button (click)="touggleFollow()" *ngIf="isFollowing">\n\n              <ion-icon name="star"></ion-icon>\n\n          </button>\n\n        </ion-col>\n\n      </ion-row>\n\n      <ion-item>\n\n        <ion-label>Date Filter:</ion-label>\n\n        <ion-toggle [(ngModel)]="useDateFilter"\n\n                    (ionChange)="dateChanged()">\n\n        </ion-toggle>\n\n        <ion-datetime displayFormat="M/D/YYYY" \n\n                      pickerFormat="M/D/YYYY"\n\n                      [(ngModel)]="dateFilter"\n\n                      (ionChange)="dateChanged()"\n\n                      [(disabled)]="!useDateFilter">\n\n        </ion-datetime>\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-list>\n\n    <ion-item *ngFor="let game of games" (click)="gameClicked($event, game)">\n\n      <ion-grid>\n\n        <ion-row align-items-start>\n\n          <ion-col col-3 align-self-start>\n\n            <p>{{game.time | date:\'M/d/yy\'}}</p>\n\n            <p>{{game.time | date:\'shortTime\'}}</p>\n\n          </ion-col>\n\n          <ion-col col-6 align-self-start>\n\n            <p>{{game.homeAway}} {{game.opponent}}</p>\n\n            <p>{{game.location}}</p>\n\n          </ion-col>\n\n          <ion-col col-2 align-self-start>\n\n            <h4>{{game.scoreDisplay}}</h4>\n\n            <ion-badge [ngClass]="getScoreDisplayBadgeClass(game)">{{getScoreWorL(game)}}</ion-badge>\n\n          </ion-col>                    \n\n        </ion-row>\n\n        </ion-grid>\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\team-detail\team-detail.html"*/,
+        selector: 'page-team-detail',template:/*ion-inline-start:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\team-detail\team-detail.html"*/'<!--\n\n  Generated template for the TeamDetailPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-header>\n\n    <ion-navbar></ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-refresher (ionRefresh)="refreshAll($event)">\n\n    <ion-refresher-content></ion-refresher-content>\n\n  </ion-refresher>\n\n  <ion-card>\n\n    <ion-card-content>\n\n      <ion-row>\n\n        <ion-col *ngIf="teamStanding" col-6>\n\n          <h2>Record: {{teamStanding.wins}} - {{teamStanding.losses}}</h2>\n\n          <p>Coach: {{team.coach}}</p>\n\n        </ion-col>\n\n        <ion-col col-6 text-right>\n\n          <button ion-button outline (click)="touggleFollow()" *ngIf="!isFollowing">\n\n              <ion-icon name="star" class="padding-right-3"></ion-icon>\n\n              Add Favorite\n\n          </button>\n\n          <button ion-button (click)="touggleFollow()" *ngIf="isFollowing">\n\n              <ion-icon name="star"></ion-icon>\n\n          </button>\n\n        </ion-col>\n\n      </ion-row>\n\n      <ion-item>\n\n        <ion-label color="primary">Date Filter :</ion-label>\n\n        <ion-datetime displayFormat="MM/DD/YYYY" \n\n                      pickerFormat="MM/DD/YYYY"\n\n                      [(ngModel)]="dateFilter"\n\n                      (ionChange)="dateChanged()"\n\n                      [(disabled)]="!useDateFilter">\n\n        </ion-datetime>\n\n        <ion-toggle [(ngModel)]="useDateFilter"\n\n                    (ionChange)="dateChanged()">\n\n        </ion-toggle>        \n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-list>\n\n    <ion-item *ngFor="let game of games" (click)="gameClicked($event, game)">\n\n      <ion-grid>\n\n        <ion-row align-items-start>\n\n          <ion-col col-3 align-self-start>\n\n            <p>{{game.time | date:\'M/d/yy\'}}</p>\n\n            <p>{{game.time | date:\'shortTime\'}}</p>\n\n          </ion-col>\n\n          <ion-col col-6 align-self-start>\n\n            <p>{{game.homeAway}} {{game.opponent}}</p>\n\n            <p>{{game.location}}</p>\n\n          </ion-col>\n\n          <ion-col col-2 align-self-start>\n\n            <h4>{{game.scoreDisplay}}</h4>\n\n            <ion-badge [ngClass]="getScoreDisplayBadgeClass(game)">{{getScoreWorL(game)}}</ion-badge>\n\n          </ion-col>                    \n\n        </ion-row>\n\n        </ion-grid>\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\team-detail\team-detail.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
@@ -903,236 +899,236 @@ TeamDetailPage = __decorate([
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./af": 273,
-	"./af.js": 273,
-	"./ar": 274,
-	"./ar-dz": 275,
-	"./ar-dz.js": 275,
-	"./ar-kw": 276,
-	"./ar-kw.js": 276,
-	"./ar-ly": 277,
-	"./ar-ly.js": 277,
-	"./ar-ma": 278,
-	"./ar-ma.js": 278,
-	"./ar-sa": 279,
-	"./ar-sa.js": 279,
-	"./ar-tn": 280,
-	"./ar-tn.js": 280,
-	"./ar.js": 274,
-	"./az": 281,
-	"./az.js": 281,
-	"./be": 282,
-	"./be.js": 282,
-	"./bg": 283,
-	"./bg.js": 283,
-	"./bn": 284,
-	"./bn.js": 284,
-	"./bo": 285,
-	"./bo.js": 285,
-	"./br": 286,
-	"./br.js": 286,
-	"./bs": 287,
-	"./bs.js": 287,
-	"./ca": 288,
-	"./ca.js": 288,
-	"./cs": 289,
-	"./cs.js": 289,
-	"./cv": 290,
-	"./cv.js": 290,
-	"./cy": 291,
-	"./cy.js": 291,
-	"./da": 292,
-	"./da.js": 292,
-	"./de": 293,
-	"./de-at": 294,
-	"./de-at.js": 294,
-	"./de-ch": 295,
-	"./de-ch.js": 295,
-	"./de.js": 293,
-	"./dv": 296,
-	"./dv.js": 296,
-	"./el": 297,
-	"./el.js": 297,
-	"./en-au": 298,
-	"./en-au.js": 298,
-	"./en-ca": 299,
-	"./en-ca.js": 299,
-	"./en-gb": 300,
-	"./en-gb.js": 300,
-	"./en-ie": 301,
-	"./en-ie.js": 301,
-	"./en-nz": 302,
-	"./en-nz.js": 302,
-	"./eo": 303,
-	"./eo.js": 303,
-	"./es": 304,
-	"./es-do": 305,
-	"./es-do.js": 305,
-	"./es.js": 304,
-	"./et": 306,
-	"./et.js": 306,
-	"./eu": 307,
-	"./eu.js": 307,
-	"./fa": 308,
-	"./fa.js": 308,
-	"./fi": 309,
-	"./fi.js": 309,
-	"./fo": 310,
-	"./fo.js": 310,
-	"./fr": 311,
-	"./fr-ca": 312,
-	"./fr-ca.js": 312,
-	"./fr-ch": 313,
-	"./fr-ch.js": 313,
-	"./fr.js": 311,
-	"./fy": 314,
-	"./fy.js": 314,
-	"./gd": 315,
-	"./gd.js": 315,
-	"./gl": 316,
-	"./gl.js": 316,
-	"./gom-latn": 317,
-	"./gom-latn.js": 317,
-	"./he": 318,
-	"./he.js": 318,
-	"./hi": 319,
-	"./hi.js": 319,
-	"./hr": 320,
-	"./hr.js": 320,
-	"./hu": 321,
-	"./hu.js": 321,
-	"./hy-am": 322,
-	"./hy-am.js": 322,
-	"./id": 323,
-	"./id.js": 323,
-	"./is": 324,
-	"./is.js": 324,
-	"./it": 325,
-	"./it.js": 325,
-	"./ja": 326,
-	"./ja.js": 326,
-	"./jv": 327,
-	"./jv.js": 327,
-	"./ka": 328,
-	"./ka.js": 328,
-	"./kk": 329,
-	"./kk.js": 329,
-	"./km": 330,
-	"./km.js": 330,
-	"./kn": 331,
-	"./kn.js": 331,
-	"./ko": 332,
-	"./ko.js": 332,
-	"./ky": 333,
-	"./ky.js": 333,
-	"./lb": 334,
-	"./lb.js": 334,
-	"./lo": 335,
-	"./lo.js": 335,
-	"./lt": 336,
-	"./lt.js": 336,
-	"./lv": 337,
-	"./lv.js": 337,
-	"./me": 338,
-	"./me.js": 338,
-	"./mi": 339,
-	"./mi.js": 339,
-	"./mk": 340,
-	"./mk.js": 340,
-	"./ml": 341,
-	"./ml.js": 341,
-	"./mr": 342,
-	"./mr.js": 342,
-	"./ms": 343,
-	"./ms-my": 344,
-	"./ms-my.js": 344,
-	"./ms.js": 343,
-	"./my": 345,
-	"./my.js": 345,
-	"./nb": 346,
-	"./nb.js": 346,
-	"./ne": 347,
-	"./ne.js": 347,
-	"./nl": 348,
-	"./nl-be": 349,
-	"./nl-be.js": 349,
-	"./nl.js": 348,
-	"./nn": 350,
-	"./nn.js": 350,
-	"./pa-in": 351,
-	"./pa-in.js": 351,
-	"./pl": 352,
-	"./pl.js": 352,
-	"./pt": 353,
-	"./pt-br": 354,
-	"./pt-br.js": 354,
-	"./pt.js": 353,
-	"./ro": 355,
-	"./ro.js": 355,
-	"./ru": 356,
-	"./ru.js": 356,
-	"./sd": 357,
-	"./sd.js": 357,
-	"./se": 358,
-	"./se.js": 358,
-	"./si": 359,
-	"./si.js": 359,
-	"./sk": 360,
-	"./sk.js": 360,
-	"./sl": 361,
-	"./sl.js": 361,
-	"./sq": 362,
-	"./sq.js": 362,
-	"./sr": 363,
-	"./sr-cyrl": 364,
-	"./sr-cyrl.js": 364,
-	"./sr.js": 363,
-	"./ss": 365,
-	"./ss.js": 365,
-	"./sv": 366,
-	"./sv.js": 366,
-	"./sw": 367,
-	"./sw.js": 367,
-	"./ta": 368,
-	"./ta.js": 368,
-	"./te": 369,
-	"./te.js": 369,
-	"./tet": 370,
-	"./tet.js": 370,
-	"./th": 371,
-	"./th.js": 371,
-	"./tl-ph": 372,
-	"./tl-ph.js": 372,
-	"./tlh": 373,
-	"./tlh.js": 373,
-	"./tr": 374,
-	"./tr.js": 374,
-	"./tzl": 375,
-	"./tzl.js": 375,
-	"./tzm": 376,
-	"./tzm-latn": 377,
-	"./tzm-latn.js": 377,
-	"./tzm.js": 376,
-	"./uk": 378,
-	"./uk.js": 378,
-	"./ur": 379,
-	"./ur.js": 379,
-	"./uz": 380,
-	"./uz-latn": 381,
-	"./uz-latn.js": 381,
-	"./uz.js": 380,
-	"./vi": 382,
-	"./vi.js": 382,
-	"./x-pseudo": 383,
-	"./x-pseudo.js": 383,
-	"./yo": 384,
-	"./yo.js": 384,
-	"./zh-cn": 385,
-	"./zh-cn.js": 385,
-	"./zh-hk": 386,
-	"./zh-hk.js": 386,
-	"./zh-tw": 387,
-	"./zh-tw.js": 387
+	"./af": 274,
+	"./af.js": 274,
+	"./ar": 275,
+	"./ar-dz": 276,
+	"./ar-dz.js": 276,
+	"./ar-kw": 277,
+	"./ar-kw.js": 277,
+	"./ar-ly": 278,
+	"./ar-ly.js": 278,
+	"./ar-ma": 279,
+	"./ar-ma.js": 279,
+	"./ar-sa": 280,
+	"./ar-sa.js": 280,
+	"./ar-tn": 281,
+	"./ar-tn.js": 281,
+	"./ar.js": 275,
+	"./az": 282,
+	"./az.js": 282,
+	"./be": 283,
+	"./be.js": 283,
+	"./bg": 284,
+	"./bg.js": 284,
+	"./bn": 285,
+	"./bn.js": 285,
+	"./bo": 286,
+	"./bo.js": 286,
+	"./br": 287,
+	"./br.js": 287,
+	"./bs": 288,
+	"./bs.js": 288,
+	"./ca": 289,
+	"./ca.js": 289,
+	"./cs": 290,
+	"./cs.js": 290,
+	"./cv": 291,
+	"./cv.js": 291,
+	"./cy": 292,
+	"./cy.js": 292,
+	"./da": 293,
+	"./da.js": 293,
+	"./de": 294,
+	"./de-at": 295,
+	"./de-at.js": 295,
+	"./de-ch": 296,
+	"./de-ch.js": 296,
+	"./de.js": 294,
+	"./dv": 297,
+	"./dv.js": 297,
+	"./el": 298,
+	"./el.js": 298,
+	"./en-au": 299,
+	"./en-au.js": 299,
+	"./en-ca": 300,
+	"./en-ca.js": 300,
+	"./en-gb": 301,
+	"./en-gb.js": 301,
+	"./en-ie": 302,
+	"./en-ie.js": 302,
+	"./en-nz": 303,
+	"./en-nz.js": 303,
+	"./eo": 304,
+	"./eo.js": 304,
+	"./es": 305,
+	"./es-do": 306,
+	"./es-do.js": 306,
+	"./es.js": 305,
+	"./et": 307,
+	"./et.js": 307,
+	"./eu": 308,
+	"./eu.js": 308,
+	"./fa": 309,
+	"./fa.js": 309,
+	"./fi": 310,
+	"./fi.js": 310,
+	"./fo": 311,
+	"./fo.js": 311,
+	"./fr": 312,
+	"./fr-ca": 313,
+	"./fr-ca.js": 313,
+	"./fr-ch": 314,
+	"./fr-ch.js": 314,
+	"./fr.js": 312,
+	"./fy": 315,
+	"./fy.js": 315,
+	"./gd": 316,
+	"./gd.js": 316,
+	"./gl": 317,
+	"./gl.js": 317,
+	"./gom-latn": 318,
+	"./gom-latn.js": 318,
+	"./he": 319,
+	"./he.js": 319,
+	"./hi": 320,
+	"./hi.js": 320,
+	"./hr": 321,
+	"./hr.js": 321,
+	"./hu": 322,
+	"./hu.js": 322,
+	"./hy-am": 323,
+	"./hy-am.js": 323,
+	"./id": 324,
+	"./id.js": 324,
+	"./is": 325,
+	"./is.js": 325,
+	"./it": 326,
+	"./it.js": 326,
+	"./ja": 327,
+	"./ja.js": 327,
+	"./jv": 328,
+	"./jv.js": 328,
+	"./ka": 329,
+	"./ka.js": 329,
+	"./kk": 330,
+	"./kk.js": 330,
+	"./km": 331,
+	"./km.js": 331,
+	"./kn": 332,
+	"./kn.js": 332,
+	"./ko": 333,
+	"./ko.js": 333,
+	"./ky": 334,
+	"./ky.js": 334,
+	"./lb": 335,
+	"./lb.js": 335,
+	"./lo": 336,
+	"./lo.js": 336,
+	"./lt": 337,
+	"./lt.js": 337,
+	"./lv": 338,
+	"./lv.js": 338,
+	"./me": 339,
+	"./me.js": 339,
+	"./mi": 340,
+	"./mi.js": 340,
+	"./mk": 341,
+	"./mk.js": 341,
+	"./ml": 342,
+	"./ml.js": 342,
+	"./mr": 343,
+	"./mr.js": 343,
+	"./ms": 344,
+	"./ms-my": 345,
+	"./ms-my.js": 345,
+	"./ms.js": 344,
+	"./my": 346,
+	"./my.js": 346,
+	"./nb": 347,
+	"./nb.js": 347,
+	"./ne": 348,
+	"./ne.js": 348,
+	"./nl": 349,
+	"./nl-be": 350,
+	"./nl-be.js": 350,
+	"./nl.js": 349,
+	"./nn": 351,
+	"./nn.js": 351,
+	"./pa-in": 352,
+	"./pa-in.js": 352,
+	"./pl": 353,
+	"./pl.js": 353,
+	"./pt": 354,
+	"./pt-br": 355,
+	"./pt-br.js": 355,
+	"./pt.js": 354,
+	"./ro": 356,
+	"./ro.js": 356,
+	"./ru": 357,
+	"./ru.js": 357,
+	"./sd": 358,
+	"./sd.js": 358,
+	"./se": 359,
+	"./se.js": 359,
+	"./si": 360,
+	"./si.js": 360,
+	"./sk": 361,
+	"./sk.js": 361,
+	"./sl": 362,
+	"./sl.js": 362,
+	"./sq": 363,
+	"./sq.js": 363,
+	"./sr": 364,
+	"./sr-cyrl": 365,
+	"./sr-cyrl.js": 365,
+	"./sr.js": 364,
+	"./ss": 366,
+	"./ss.js": 366,
+	"./sv": 367,
+	"./sv.js": 367,
+	"./sw": 368,
+	"./sw.js": 368,
+	"./ta": 369,
+	"./ta.js": 369,
+	"./te": 370,
+	"./te.js": 370,
+	"./tet": 371,
+	"./tet.js": 371,
+	"./th": 372,
+	"./th.js": 372,
+	"./tl-ph": 373,
+	"./tl-ph.js": 373,
+	"./tlh": 374,
+	"./tlh.js": 374,
+	"./tr": 375,
+	"./tr.js": 375,
+	"./tzl": 376,
+	"./tzl.js": 376,
+	"./tzm": 377,
+	"./tzm-latn": 378,
+	"./tzm-latn.js": 378,
+	"./tzm.js": 377,
+	"./uk": 379,
+	"./uk.js": 379,
+	"./ur": 380,
+	"./ur.js": 380,
+	"./uz": 381,
+	"./uz-latn": 382,
+	"./uz-latn.js": 382,
+	"./uz.js": 381,
+	"./vi": 383,
+	"./vi.js": 383,
+	"./x-pseudo": 384,
+	"./x-pseudo.js": 384,
+	"./yo": 385,
+	"./yo.js": 385,
+	"./zh-cn": 386,
+	"./zh-cn.js": 386,
+	"./zh-hk": 387,
+	"./zh-hk.js": 387,
+	"./zh-tw": 388,
+	"./zh-tw.js": 388
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -1159,7 +1155,7 @@ webpackContext.id = 719;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TeamsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared__ = __webpack_require__(41);
@@ -1250,7 +1246,7 @@ TeamsPage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StandingsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1316,10 +1312,11 @@ StandingsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'page-standings',template:/*ion-inline-start:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/'<!--\n\n  Generated template for the StandingsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar></ion-navbar>\n\n\n\n    <ion-toolbar>\n\n      <ion-segment color="Primary" [(ngModel)]="divisionFilter" (ionChange)="filterDivision($event)">\n\n        <ion-segment-button value="division">\n\n          Division\n\n        </ion-segment-button>\n\n        <ion-segment-button value="all">\n\n          All\n\n        </ion-segment-button>        \n\n      </ion-segment>        \n\n    </ion-toolbar>      \n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list [virtualScroll]="standings" [approxItemHeight]="\'132px\'" [headerFn]="getHeader">\n\n    <ion-item-divider color="secondary" *virtualHeader="let header">\n\n        {{header}}\n\n    </ion-item-divider>    \n\n    <ion-item *virtualItem="let team">\n\n          <ion-row>\n\n            <ion-col>\n\n              <h2 color="primary">{{team.teamName}}</h2>\n\n            </ion-col>\n\n          </ion-row>\n\n          <ion-row>\n\n            <ion-col>\n\n              <h4>Wins</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>Losses</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>Games</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>SW</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>SL</h4>\n\n            </ion-col>\n\n            <!--<ion-col>\n\n              <h4>Diff</h4>\n\n            </ion-col>           -->\n\n          </ion-row>\n\n          <ion-row>\n\n            <ion-col>\n\n              <h4>{{team.wins}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.losses}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.games}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.setWon}}</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n              <h4>{{team.setLost}}</h4>\n\n            </ion-col>\n\n            <!--<ion-col>\n\n              <h4>{{team.pointsDiff}}</h4>\n\n            </ion-col>           -->\n\n          </ion-row>      \n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\tchowdhu\Documents\TestIonic\ping-pong-madness\src\pages\standings\standings.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* AppApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* AppApi */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* AppApi */]])
 ], StandingsPage);
 
-var _a, _b, _c;
 //# sourceMappingURL=standings.js.map
 
 /***/ }),
@@ -1440,5 +1437,5 @@ MapPage = __decorate([
 
 /***/ })
 
-},[388]);
+},[389]);
 //# sourceMappingURL=main.js.map

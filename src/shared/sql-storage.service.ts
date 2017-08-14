@@ -1,12 +1,14 @@
 import { Injectable } from '@angular/core';
 import { SQLite, SQLiteObject } from '@ionic-native/sqlite';
 
+const DATABASE_FILE_NAME: string = 'data.db';
+
 @Injectable()
 export class SqlStorage {
-    public db: SQLite; 
-    public sql: SQLiteObject;
+    //private db: SQLite; 
+    private sql: SQLiteObject
 
-    constructor() {             
+    constructor(private db: SQLite) {             
         console.log(this.sql); 
     }
 
@@ -47,12 +49,22 @@ export class SqlStorage {
         this.db = new SQLite();
 
         return this.db.create({
-                name: 'data.db',
+                name: DATABASE_FILE_NAME,
                 location: 'default'
-                }).then((sql: SQLiteObject) => {
+            }).then((sql: SQLiteObject) => {
+                
+                    this.sql = sql;
+
                     return sql.executeSql('CREATE TABLE IF NOT EXISTS kv (key text primary key, value text)', []).then(data => {
-                        console.log('**after CREATE TABLE check', data);
-                    });        
+
+                        console.log('**after CREATE TABLE check...', data);
+
+                        // sql.executeSql('SELECT * from kv', []).then(data => {
+                        //     console.log('**executing query: SELECT * from kv ', data);                        
+                        // });
+
+                    });
+
                 });
 
 

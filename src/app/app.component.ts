@@ -45,7 +45,9 @@ export class MyApp {
       this.refreshFavorites();
       this.events.subscribe('favorites:changed', () => this.refreshFavorites());
 
+    //----------------------------SQLite storage initialization--------------------------------------------
       // this.userSettings.initStorage().then(() => {
+      //         console.log("initStorage...");
       //         this.rootPage = MyTeamsPage;
       //         this.refreshFavorites();
       //         this.events.subscribe('favorites:changed', () => this.refreshFavorites());
